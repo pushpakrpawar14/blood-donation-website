@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #000;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-left a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.nav-center {
+    font-weight: bold;
+}
+
+.btn {
+    padding: 8px 18px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn.outline {
+    background: transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+
+/* HERO */
+.hero {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.35), rgba(255, 0, 0, 0.35)), url("/Users/pushpak/Desktop/blood/images/main.jpg"); 
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat;  
+   
+    text-align: center;
+    padding: 90px 20px;
+    color: #fff;
+}
+
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto 25px;
+    font-size: 14px;
+}
+
+.hero-buttons button {
+    margin: 0 8px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 70px 40px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: rgb(255, 89, 89);
+    color: #fff;
+    width: 280px;
+    padding: 30px 20px;
+    text-align: left;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.card span {
+    font-size: 13px;
+}
+
+/* FAQ */
+.faq {
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.faq-item {
+    border: 1px solid #000;
+    padding: 14px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.help-text {
+    margin-bottom: 15px;
+}
+
+/* CTA */
+.cta {
+    background: rgb(255, 89, 89);
+    color: #fff;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.cta h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.cta p {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px;
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+}
